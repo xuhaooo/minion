@@ -7,10 +7,11 @@
 body {
 	min-height: 100vh;
 	min-width: 100vw;
+	overflow: hidden;
 }
 #buttons {
 	position: fixed;
-	right: 0;
+	right: 10px;
 	top: 0;
 	z-index: 10;
 	display: flex;
@@ -31,8 +32,9 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	border: 1px solid red;
 	overflow-y: auto;
+	background: #272935;
+	color: #9D9EA3;
 }
 #demo::-webkit-scrollbar {
 	display: none;
@@ -48,6 +50,7 @@ body {
 	flex-direction: column;
 	justify-self: center;
 	align-items: center;
+	background: white;
 }
 .minion {
     position: absolute;
@@ -65,7 +68,7 @@ body {
 #left-hand,
 #right-arm,
 #right-hand {
-    background: #fce55b;
+    background: #FFCD41;
     border-radius: 100px;
     width: 20px;
 }

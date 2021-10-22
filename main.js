@@ -6,7 +6,7 @@ const string = `/**
 
 /******先画小黄人的皮肤*******/
 #minion-body {
-   background: #fce55b;
+   background: #FFCD41;
    border-radius: 100px 100px 60px 60px;
    height: 340px;
    width: 200px;
