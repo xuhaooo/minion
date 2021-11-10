@@ -215,7 +215,7 @@ const string = `/**
 `
 const player = {
   id: undefined,
-  time: 50,
+  time: 30,
   n: 1,
   events: {
     '#btnPause': 'pause',
